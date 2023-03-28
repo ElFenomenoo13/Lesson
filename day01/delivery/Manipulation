@@ -1,0 +1,57 @@
+Task 01
+
+Créer un dossier delivery et un sous dossier task01 avec sudo mkdir,
+Créer un fichier vide test01 avec sudo touch,
+Créer un fichier test02 avec sudo touch, puis éditer le fichier avec sudo emacs -nw test02
+Créer un lien symbolique test03 en référence à test02 avec sudo ln-s test02 test03
+
+
+Task02
+
+Créer un fichier task02 dans delivery et utiliser sudo sh -c 'echo -e "Z\n" > z'
+-e pour interpréter les caractères, \n pour le retour à la ligne et > z pour créer un fichier z
+cat z pour afficher le fichier
+
+
+Task 03
+
+Créer un fichier avec sudo touch midLS
+Editer le fichier avec sudo emacs -nw midLS
+Ecrire la commande sudo sh -c "ls -pmI" '.*" dans le fichier midLS
+Ajouter les droits d'execution pour tout le monde avec chmod a+x midLS
+
+
+Task04
+
+Créer un fichier avec sudo touch mr_clean
+Edtier le fichier avec sudo emacs -nw mr_clean
+Ecrire la commande find -name "*-" -o -name "#*#" -type f -delete
+Ajouter les droits d'exectution pour l'utilisateur avec chmod u+x mr_clean
+
+
+Task05
+
+Créer un fichier avec sudo touch prepare_my_repo.sh
+Editer le fichier avec sudo emacs -nw prepare_my_repo.sh
+Ecrire la commande mkdir $1, suivi de cd $1 et git init
+Ajouter les droits d'execution avec chmod +x prepare_my_repo.sh
+Utiliser ./prepare_my_repos.sh Nom du repetoire pour créer un nouveau repo
+
+
+Task 06
+
+Créer un fichier avec sudo touch push_that.sh
+Editer le fichier avec sudo emacs -nw push_that.sh
+Ecrire la commande git add ., suivi de git commit -m "$1" et git push -u origin master
+Ajouter les droits d'execution avec chmox +x push_that.sh
+Utiliser ./push_that.sh Commentaire Commit pour push le repo sur github
+
+
+Task 07
+
+Refaire la Task01 en gros volume de merde pour pouvoir utiliser tree, d'la vrai grosse merde 
+
+
+Task08
+
+Créer une archive avec tar -czvf task07.tar.gz -C /home/pool/day01/delivery/task08 task07
