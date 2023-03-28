@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep "$1" /home/pool/task/Day02/Day02/passwd | wc -l

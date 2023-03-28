@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+Task01
+=======
+*65;6800;1cTask01
+>>>>>>> 3500f6b (2.1)
+
+Ecrire le shebang #!/bin/bash pour savoir ce que contient le fichier
+Utiliser la commande awk -F';' students.csv pour extraire la liste du fichier
+Ajouter variable -v ville="$1" pour definir le nom de la ville recherchée
+Ajouter '$3 ~ ville {print$0}'  pour preciser que l'on cherche la ville dans le champ 3, puis imprimer la ligne correspondante
+Et utiliser | wc -l pour compter le nombre de ligne
+
+<<<<<<< HEAD
+=======
+
+Task02
+
+Créer un script qui utilise find -type f pour chercher des fichier avec -name "*.sh" pour rechercher les fichiers se terminant par .sh
+
+
+Task03
+
+Créer un script qui utilise find -type f pour chercher des fichiers avec -not -name ".*" pour ne pas inclure les fichiers cachés et | wc -l pour afficher le nombre
+>>>>>>> 3500f6b (2.1)
