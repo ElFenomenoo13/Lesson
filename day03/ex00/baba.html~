@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <style>
+    body {
+	background-color: pink;
+    }
+
+    h1 {
+	font-size:4em;
+	text-align:center
+        
+			   
+    }
+  </style>
+</head>
+<body>
+  <h1>B.A.B.A</h>
+</body>
+</html>
